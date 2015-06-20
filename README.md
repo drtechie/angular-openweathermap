@@ -37,13 +37,13 @@ Getting Started
         
   Set offset-hours and offset-minutes according to your desired timezone.
   
-  * Include the CSS files to load weather-icons
+* Include the CSS files to load weather-icons
 
         <link rel="stylesheet" href="path/to/weather-icons.min.css">
         <link rel="stylesheet" href="path/to/bootstrap.min.css"> <!-- If you wish to add tooltip -->
   
-  License
-  -------
+License
+-------
 
 **angular-openweathermap** is licensed under the MIT license. See the LICENSE file for more details.
 
