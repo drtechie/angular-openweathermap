@@ -20,10 +20,10 @@ Getting Started
 
         <script type='text/javascript' src='path/to/angular.min.js'></script>
         <script type='text/javascript' src='path/to/angular-sanitize.min.js'></script>
-        <script src="path/to/ui-bootstrap-tpls.min.js"></script> <!-- If you wish to add tooltip -->
+        <script type='text/javascript' src="path/to/ui-bootstrap-tpls.min.js"></script> <!-- If you wish to add tooltip -->
         <script type='text/javascript' src='path/to/angular-openweathermap.min.js'></script>
 
- * Ensure that your application module specifies angular-parallax` as a dependency:
+ * Ensure that your application module specifies angular-openweathermap as a dependency:
 
         angular.module('myApplication', ['angular-openweathermap', 'ngSanitize']);
         
