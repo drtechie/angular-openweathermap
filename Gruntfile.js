@@ -12,7 +12,7 @@
             options: {
                 reporter: require('jshint-stylish')
             },
-            all: ['custom/js/custom.js','Gruntfile.js']
+            all: ['angular-openweathermap.js','Gruntfile.js']
         },
         
         /*2. 
