@@ -1,0 +1,35 @@
+<html ng-app="ngApp">
+  	<head>
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="../bower_components/weather-icons/css/weather-icons.min.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<style>
+    		.container {
+    			padding-top: 40px;
+    		}
+    		angular-openweathermap {
+    			padding: 40px;
+    		}
+    	</style>
+  	</head>
+  	<body>
+  		<div class="container" ng-controller="WeatherCtrl">
+  			<angular-openweathermap city-name="New York" offset-hours="-4" offset-minutes="0"></angular-openweathermap>
+  			<angular-openweathermap city-name="Tokyo" offset-hours="9" offset-minutes="0"></angular-openweathermap>
+  			<angular-openweathermap city-name="London" offset-hours="1" offset-minutes="0"></angular-openweathermap>
+  			<angular-openweathermap city-name="New Delhi" offset-hours="5" offset-minutes="30"></angular-openweathermap>
+  		</div>
+  	</body>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-sanitize.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+	<script src="angular-openweathermap.js"></script>
+	<script>
+	  var app = angular.module('ngApp', [
+	  'angular-openweathermap', 'ngSanitize', 'ui.bootstrap'
+	  ]);
+
+	  app.controller('WeatherCtrl', function($scope) {
+	  });
+	</script>
+</html>

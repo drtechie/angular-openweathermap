@@ -1,0 +1,29 @@
+{
+  "name": "angular-openweathermap",
+  "version": "1.0.0",
+  "authors": [
+    "drtechie drmithunjames@gmail.com"
+  ],
+  "description": "Angular.js module for displaying current weather using Openweathermap API and weather-icons",
+  "main": "./angular-openweathermap.js",
+  "keywords": [
+    "angular",
+    "openweathermap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/drtechie/angular-openweathermap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "weather-icons": "erikflowers/weather-icons",
+    "angular-bootstrap": "~0.13.0",
+    "angular-sanitize": "~1.4.1"
+  }
+}
