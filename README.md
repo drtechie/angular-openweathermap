@@ -1,6 +1,6 @@
 
 
-![Angular Openweathermap](https://raw.github.com/drtechie/angular-openweathermap/master/images/weather.png)
+![Angular Openweathermap](https://raw.githubusercontent.com/drtechie/angular-openweathermap/master/image/weather.png)
 
 # angular-openweathermap
 
