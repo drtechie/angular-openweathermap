@@ -4,7 +4,7 @@ angular.module('angular-openweathermap', [
 ]).directive('angularOpenweathermap', ['$http', function ($http) {
     return {
         restrict: 'EA',
-        template: '<i class="wi" ng-class="weatherClass" tooltip="{{weatherDescription}}"></i> <span ng-bind-html="cityName"></span> | <span ng-bind-html="temperature"></span>',
+        template: '<i class="wi" ng-class="weatherClass" tooltip="{{weatherDescription}}" style="padding-right:5px;"></i><span ng-bind-html="cityName"></span> | <span ng-bind-html="temperature"></span>',
         transclude: true,
         scope: {
             cityName: '@',
